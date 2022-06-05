@@ -1,0 +1,131 @@
+#actualite {
+background: url('./img/bloodLab.jpg');
+background-repeat: no-repeat;
+width: 100%;
+background-position: center;
+background-size: cover;
+}
+.news-container {
+ width: 100%;
+ height: auto;
+ background-color: white;
+ display: flex;
+ 
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ margin-bottom: 80px;
+}
+.title2{
+    font-size: 60px;
+    margin-top: 20px;
+    font-style: italic;
+}
+#imgContainer{
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    margin-right: 10px;
+    margin-top: 10px;
+transform:
+perspective(75em)
+rotateX(18deg);
+box-shadow:
+rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+border-radius: 10px;
+border: 1px solid;
+border-color:
+rgb(213, 220, 226)
+rgb(213, 220, 226)
+rgb(184, 194, 204);
+margin-bottom: 20px;
+}
+.img-container1{
+    background: url("./img/pénurie.jpg");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img-container2{
+    background: url("./img/vac.jpg");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img-container3{
+    background: url("./img/antiCorps.png");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img-container4{
+    background: url("./img/maisonTransfusion1.png");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*#titre{
+ font-size: 20px;
+ color: blue;
+ margin-top: 0px;
+ margin-left: 0px;
+}*/
+#titre-button {
+ background-color: white;
+ color: rgb(64, 64, 222);
+ font-size: 25px;
+ border-radius: 0;
+ width: auto;
+ height: 200px;
+ cursor: pointer;
+ margin-top: 0;
+}
+.pageStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    position: relative;
+    z-index: 2;
+}
+.img-container5{
+    background: url("./img/james.png");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img-container6{
+    background: url("./img/Raison.png");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#pageHeight{
+    height: 2075px;
+}

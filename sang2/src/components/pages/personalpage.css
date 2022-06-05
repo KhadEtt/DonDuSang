@@ -1,0 +1,16 @@
+#post {
+   border: 2px;
+    border-color: blue;
+    margin: 0px;
+    padding: 20px;
+    width: 250px;
+    height: 130px;
+    border-style: solid;
+
+}
+#mySpace0{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 210, 210);
+}

@@ -1,0 +1,207 @@
+#home {
+    background: url('./img/images.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+#home:after{
+    content: "";
+    /*background: rgba(0, 0, 0, 0.6);*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.page-heading2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    min-height: 80vh;
+    position: relative;
+    z-index: 2;
+    
+  }
+  #title {
+    background-color: rgba(255, 255, 255, 0.776);
+    width:550Px;
+    height: 400px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 150px;
+    position: relative;
+    z-index: 2;
+   
+  }
+  #text{ 
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(0, 145, 255);
+  }
+  #lienStyle {
+      margin-top: 100px;
+      margin-left: 30px;
+      margin-right: 30px;
+      width: 450px;
+  }
+  #titre-button1 {
+    background-color: white;
+    color: rgb(64, 64, 222);
+    font-size: 25px;
+    border-radius: 0;
+    width: auto;
+    height: 200px;
+    cursor: default;
+    margin-top: 0;
+   }
+   .img-container01{
+    background: url("./img/3-vies.png");
+    width: 250px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img-container02{
+    background: url("./img/1000.jpg");
+    width: 250px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img-container03{
+    background: url("./img/vital.png");
+    width: 250px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#pDeco{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(188, 29, 29);
+    background-color: white;
+}
+.title-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    position: relative;
+    z-index: 2;
+}
+#txtStyle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+    margin-top: 80Px;
+    margin-bottom: 20px;
+    
+}
+#diffStyle {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(26, 147, 198);
+    margin-top: 80Px;
+    margin-bottom: 20px;
+}
+#imageProcess {
+    background: url('./img/process.png');
+    background-position: center;
+    background-size: cover;
+    width: 1000px;/*100%*/
+    height: 80Px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10Px;
+    margin-left: 60px;
+
+}
+#text-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh ;
+    position: relative;
+    z-index: 2;
+    
+}
+#textStyle{
+    font-size: 24px;
+    width: 350px;
+    height: 500px;
+    color: black;
+    font-weight: 100;
+    margin-right: 50px;
+    margin-left: 8Px;
+    text-align: center;
+
+}
+h6{
+    font-size: 30px;
+    color: red;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*#backStyle{
+    background-color: rgb(210, 232, 239);
+    width: 100%;
+    height: auto;
+}*/
+#imgContainer2{
+    width: 250px;
+    height: 400px;
+    background-color: gray;
+    margin-right: 10px;
+    margin-top: 10px;
+transform:
+perspective(75em)
+rotateX(18deg);
+box-shadow:
+rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+border-radius: 10px;
+border: 1px solid;
+border-color:
+rgb(213, 220, 226)
+rgb(213, 220, 226)
+rgb(184, 194, 204);
+margin-bottom: 20px;
+}
+.img-container04{
+    background: url("./img/heart.png");
+    width: 250px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#pageH{
+    height: 2570px;
+}

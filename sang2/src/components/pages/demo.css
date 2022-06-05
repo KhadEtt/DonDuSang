@@ -1,0 +1,102 @@
+.scroll0{
+  /*overflow-y: auto;*/
+  height: 1300px;
+}
+#mySpace{
+    
+    display: block;
+  }
+h2{
+    text-align: center;
+    color: rgb(21, 21, 86);
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+}
+
+#page-heading {
+    background: url("./img/greyBack.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.text1 {
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    color:rgb(14, 103, 180);
+    margin-bottom: 80px;
+}
+.registrationLink {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+ padding-top: 20px ;
+  background-color: rgb(211, 210, 210);
+ width: 100%;
+  
+}
+.button-container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: left;
+    height: 500px;
+    width: 100%;
+    margin-left: 5px;
+    
+}
+
+.text2{
+  text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color:rgb(37, 89, 133);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#bottonSpace1 {
+    width: 300px;
+    height: 40px;
+    place-items: center;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: medium;
+    justify-content: space-evenly;
+   text-decoration: none;
+    padding: 5px 10px ;
+    background-color: #01aacd;
+    color: aliceblue;
+    transition: all 0.5s ease-in-out;
+    border-radius: 2px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: -45px;
+}
+
+#bottonSpace1:hover, 
+#bottonSpace1:active {
+    background-color: rgb(214, 26, 26);
+    font-weight: 600;
+} 
+.imgBlood {
+ background: url('./img/imgBlood.png');
+ 
+ height: 300px;
+ background-repeat: no-repeat;
+ width: 300px;
+ background-position: center;
+ background-size: cover;
+ margin-left: 200px;
+ margin-top: 10px;
+}
+#pageHeight2{
+  height: 1850px;
+}

@@ -1,0 +1,172 @@
+nav {
+  background: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  position: relative;
+  z-index: 99;
+}
+
+.fas {
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 20px;
+}
+.menu-icon .fa-times {
+  transform: rotate(360deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-icon .fa-bars {
+  transform: rotate(180deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.logo {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(223, 56, 26);
+}
+
+.logo font {
+  color: rgb(223, 56, 26);
+}
+.image {
+  background: url("./image/blood2.png") no-repeat; 
+         width: 100px; 
+         height: 55px;
+         margin-top: 0%;
+         margin-left: 10px;
+         margin-right: 10px;
+         padding-top: 0% ;
+         padding-top: 0%;
+         display: block; 
+         text-indent: -9999px;
+}
+
+.menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list li:last-child a {
+  font-weight: 300;
+  padding: 5px 10px;
+  background-color: #01aacd;
+  color: aliceblue;
+  transition: all 0.5s ease-in-out;
+  margin-left: 20px;
+  border-radius: 2px;
+}
+.menu-list li:last-child a.active{
+ 
+  font-weight: 600;
+  padding: 5px 10px;
+  background-color: rgb(214, 26, 26);
+  color: aliceblue;
+  transition: all 0.5s ease-in-out;
+  margin-left: 20px;
+  border-radius: 2px;
+  width:0;
+  
+}
+.menu-list li:last-child a:hover{
+  font-weight: 600;
+  padding: 5px 10px;
+  background-color: white;
+  color: rgb(214, 26, 26);
+  transition: all 0.5s ease-in-out;
+  margin-left: 20px;
+  border-radius: 2px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  padding: 5px 10px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.menu-list li a:hover,
+.menu-list li a.active {
+  /*background-color: rgb(161, 156, 156);*/
+  border-radius: 2px;
+  color: rgb(214, 26, 26);
+  transition: all 0.5s ease-in-out;
+  font-weight: 600;
+}
+
+.menu-list li a:after {
+ content: "";
+ position: absolute;
+ background-color: rgb(214, 26, 26);
+ height: 3px;
+ width: 0;
+ left: 0;
+ bottom: -10px;
+ transition: 0.3s;
+}
+.menu-list li a:hover:after ,
+.menu-list li a.active:after{
+ width: 100%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .logo {
+    font-size: 20px;
+  }
+  .menu-list li a {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu-icon {
+    display: block;
+  }
+  .menu-list {
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    right: 0;
+    top: 64px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .menu-list li {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .menu-list li:last-child {
+    margin-bottom: 0px;
+  }
+
+  .menu-list li a,
+  .menu-list li:last-child a {
+    width: 100px;
+    display: block;
+    margin: auto;
+  }
+
+  .menu-list.close {
+    right: -100%;
+    transition: all 0.5s ease-in-out;
+  }
+}

@@ -1,0 +1,18 @@
+#formik{
+    padding: 20px;
+    margin: 30px;
+    margin-left: 200px;
+    width: 500px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: black;
+    position: relative;
+    z-index: 9;
+
+}
+.error{
+    color: red;
+    font-size: small;
+    font-weight: 100;
+}

@@ -1,0 +1,57 @@
+#mySpace{
+    height: auto;
+    display: block;
+  }
+h2{
+    text-align: center;
+    color: rgb(21, 21, 86);
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+}
+
+#page-heading1 {
+    background: url("./img/greyBack.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 0px;
+    background-position: center;
+    background-size: cover;
+    /*margin-bottom: 10px;*/
+}
+
+.text {
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    color:rgb(14, 103, 180);
+    margin-bottom: 80px;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 80px;
+}
+
+#bott {
+    width: 200px;
+    height: 40px;
+    place-items: center;
+    text-align: center;
+    font-weight: 400;
+    justify-content: space-evenly;
+   text-decoration: none;
+    padding: 5px 10px ;
+    background-color: #01aacd;
+    color: aliceblue;
+    transition: all 0.5s ease-in-out;
+    border-radius: 2px;
+}
+
+#bott:hover, 
+#bott:active {
+    background-color: rgb(214, 26, 26);
+    font-weight: 600;
+} 
