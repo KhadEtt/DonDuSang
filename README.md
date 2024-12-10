@@ -35,3 +35,14 @@ Follow these steps to set up the project locally:
    ```bash
    git clone <repository_url>
    cd <project_folder>
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+4. Open the application in your browser:
+Default URL: http://localhost:3000
